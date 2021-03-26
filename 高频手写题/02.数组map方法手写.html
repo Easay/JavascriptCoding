@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        Array.prototype.myMap = function(func) {
+            var newArray = [];
+            // let arr = this;
+            console.log(this);
+            let len = this.length;
+            for (let i=0;i<len;i++) {
+                newArray.push(func(this[i]));
+            }
+            return newArray;
+        }
+        // for-in循环需要额外判断是否是原型链上的属性
+        Array.prototype.myMap2 = function (fn, thisValue) {
+            let res = []
+            thisValue = thisValue || []
+            let arr = this;
+            // console.log(arr);
+            for (let i in arr) {
+                // console.log(arr);
+                if(arr.hasOwnProperty(i))
+                {
+                    res.push(fn(arr[i]))
+                }
+            }
+            return res
+        }
+        // reduce实现map
+        Array.prototype.myMap3 = function (fn){
+            // let newArr = [];
+            return this.reduce((arr,cur)=>{
+                arr.push(fn(cur));
+                return arr;
+            },[]);
+            
+        }
+        let a = [1, 2, 3];
+        console.log(a.myMap3(x => {
+            // console.log(x*2);
+            return x * 2;
+        }));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

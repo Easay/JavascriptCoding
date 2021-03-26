@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        Function.prototype.myCall = function (context) {
+
+            var target = context || window;
+            target.fn = this; //this为调用call的上下文，此处为函数，将该函数作为target的方法
+            // 保存参数
+            const args = [...arguments].slice(1);
+            // 结果
+            var res = target.fn(...args);
+            // 删除添加的函数
+            delete target.fn;
+            return res;
+        }
+        //用法：f.call(obj,arg1)
+        function f(a, b) {
+            console.log(a + b)
+            console.log(this.name)
+            return this.name;
+        }
+        var name = 'world';
+        let obj = {
+            name: 1,
+            greet: function () {
+                console.log(this.name);
+            }
+        }
+        //f.myCall(obj, 1, 2) //否则this指向window
+        //obj.greet.myCall() //打出来的是 world
+        //obj.greet.myCall({name:'Spike'}) //打出来的是 Splike
+
+
+        // 手写apply
+        console.log('apply的用法');
+        Function.prototype.myApply = function (context) {
+            var target = context || window;
+            target.fn = this;
+            var args = [...arguments][1]; //得到参数数组
+            var res = target.fn(...args);
+            delete target.fn;
+            return res;
+        }
+        var example = f.myApply(obj, [1, 2]) //否则this指向window
+        console.log(example);
+
+        // 手写bind
+        console.log('bind用法：');
+        this.x = 9;    // 在浏览器中，this 指向全局的 "window" 对象
+        var module = {
+            x: 81,
+            getX: function () { return this.x; }
+        };
+
+        module.getX(); // 81
+
+        var retrieveX = module.getX;
+        retrieveX();
+        // 返回 9 - 因为函数是在全局作用域中调用的
+
+        // 创建一个新函数，把 'this' 绑定到 module 对象
+        // 新手可能会将全局变量 x 与 module 的属性 x 混淆
+        //var boundGetX = retrieveX.myBind(module);
+        //console.log(boundGetX()); // 81
+        //谁调用bind，返回的函数就是该函数的拷贝，this被绑定到context
+        Function.prototype.myBind = function (context) {
+            // self指调用bind的函数
+            var self = this;
+            var target = context || window;
+            var args = [...arguments].slice(1);
+            return function () {
+                var newArgs = args.concat([...arguments]);
+                return self.apply(context, newArgs);
+            }
+        }
+        var boundGetX = retrieveX.myBind(module);
+        console.log(boundGetX()); // 81
+
+        // 声明一个上下文
+        let thovino = {
+            name: 'thovino'
+        }
+        // 声明一个构造函数
+        let eat = function (food) {
+            this.food = food
+            console.log(`${this.name} eat ${this.food}`)
+        }
+        eat.prototype.sayFuncName = function () {
+            console.log('func name : eat')
+        }
+
+        // 可以使用new的bind写法
+        Function.prototype.myNewBind = function(context){
+            var target = context||window;
+            // that指向调用bind的函数
+            let that = this;
+            var outerArgs = [...arguments].slice(1);
+            function res(){
+                var innerArgs = [...arguments];
+                var args = outerArgs.concat(innerArgs);
+                // 当new执行时，内部函数的this指向空对象{},空对象的原型指向res
+                if(this instanceof res){
+                    return that.apply(this,args);
+                }else{
+                    //普通bind
+                    return that.apply(target,args);
+                }
+            }
+            // res.prototype = this.prototype;
+            return res;
+        }
+
+        // bind一下
+        let thovinoEat = eat.myNewBind(thovino)
+        let instance = new thovinoEat('orange')  //实际上orange放到了thovino里面
+        console.log('instance:', instance)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        Array.prototype.myReduce = function(callback,initialValue){
+            // 不赋初值时，initialValue为数组第一个元素
+            var initialValue = (initialValue===undefined)?this[0]:initialValue;
+            // 初始索引根据是否赋初值决定
+            var initialIndex = (initialValue===undefined)?1:0;
+            var pre = initialValue;
+            for(let i=initialIndex;i<this.length;i++){
+                 pre = callback(pre,this[i],i,this);
+            }
+            return pre;
+        }
+        let a = [1,2,3];
+        console.log(a.myReduce((pre,cur)=>{
+            pre.push(cur);
+            return pre;
+        },[]));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

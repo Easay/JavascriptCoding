@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function curry(fn){
+            // 保存全部参数
+            var args = [];
+            // 返回一个函数
+            return function(arg){
+                args.push(arg);
+                // 如果参数不够
+                if(args.length<fn.length){
+                    return arguments.callee;
+                }else{
+                    return fn.apply(null,args);
+                }
+            }
+
+        }
+        function fn(a,b,c){
+            return a+b+c;
+        }
+        var func = curryIt(fn);
+        console.log(func(1)(2,3))
+
+        //3.25
+        function curryIt(fn){
+            var args = [];
+            return function() {
+                // 类数组转数组方式1：
+                var arg = [].slice.call(arguments);
+                // 方式2：
+                var arg = Array.from(arguments);
+                args = args.concat(arg);
+                if(args.length < fn.length){
+                    return arguments.callee;
+                }else{
+                    return fn.apply(null,args);
+                }
+            }   
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

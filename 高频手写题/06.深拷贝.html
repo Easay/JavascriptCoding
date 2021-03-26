@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function deepClone(obj){
+            if(typeof obj!=='object'||obj==null){
+                return obj;
+            }
+            var newObj;
+            if(obj instanceof Array){
+                newObj = [];
+            }else{
+                newObj = {}
+            }
+            for(let key in obj){
+                var value = obj[key];
+                // 不是原型链上的属性
+                if(obj.hasOwnProperty(key)){
+                    newObj[key] = deepClone(value);
+                }
+            }
+            return newObj;
+        }
+        var obj1 = {
+            name:'ming',
+            props:{
+                age:12,
+                home:'shanghai'
+            }
+        }
+        var obj2 = deepClone(obj1);
+        obj2.props.age = 13;
+        console.log(obj2.props.age);
+        console.log(obj1.props.age);
+        // 利用JSON的方法实现深拷贝
+        var str = JSON.stringify(obj1);
+        var obj3 = JSON.parse(str);
+        obj3.props.age = 14;
+        console.log(obj1.props.age);
+        console.log(obj3.props.age);
+        // 使用loadash库函数
+
+        var cloneDeep = function(obj){
+            if(typeof obj!=='object' || obj==null){
+                return obj;
+            }
+            var res;
+            // 初始化
+            if(obj instanceof Array){
+                res = [];
+            }else{
+                res = {};
+            }
+            for(let key in obj){
+                // 不在原型链上
+                if(obj.hasOwnProperty(key)){
+                    res[key] = cloneDeep(obj[key]);
+                }
+            }
+            return res;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
