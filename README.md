@@ -15,5 +15,5 @@
 - [力扣70.爬楼梯](https://github.com/Easay/JavascriptCoding/issues/14)
 - [力扣215.数组中第K个最大元素](https://github.com/Easay/JavascriptCoding/issues/8)
 - [力扣102.二叉树的层序遍历](https://github.com/Easay/JavascriptCoding/issues/13)
-- [力扣46.全排列](https://github.com/Easay/JavascriptCoding/issues/19)
+- [力扣46.全排列](https://github.com/Easay/JavascriptCoding/issues/19)⛈
 - [力扣129.路径总和（从根节点到叶节点数字之和）](https://github.com/Easay/JavascriptCoding/issues/17)
