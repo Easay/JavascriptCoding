@@ -17,3 +17,11 @@
 - [力扣102.二叉树的层序遍历](https://github.com/Easay/JavascriptCoding/issues/13)
 - [力扣46.全排列](https://github.com/Easay/JavascriptCoding/issues/19)⛈
 - [力扣129.路径总和（从根节点到叶节点数字之和）](https://github.com/Easay/JavascriptCoding/issues/17)
+- [力扣206.反转链表](https://github.com/Easay/JavascriptCoding/issues/26)⛈
+- [力扣912.手撕快速排序](https://github.com/Easay/JavascriptCoding/issues/37)
+- [力扣141.环形链表](https://github.com/Easay/JavascriptCoding/issues/16)
+- [力扣704.二分查找](https://github.com/Easay/JavascriptCoding/issues/18)
+- [力扣20.有效的括号](https://github.com/Easay/JavascriptCoding/issues/24)
+- [力扣104.二叉树的最大深度](https://github.com/Easay/JavascriptCoding/issues/15)
+- [剑指10-1.斐波那契数列](https://github.com/Easay/JavascriptCoding/issues/25)
+- [剑指22.链表中倒数第K个节点](https://github.com/Easay/JavascriptCoding/issues/23)
