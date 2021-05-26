@@ -25,3 +25,8 @@
 - [力扣104.二叉树的最大深度](https://github.com/Easay/JavascriptCoding/issues/15)
 - [剑指10-1.斐波那契数列](https://github.com/Easay/JavascriptCoding/issues/25)
 - [剑指22.链表中倒数第K个节点](https://github.com/Easay/JavascriptCoding/issues/23)
+- [力扣30.二叉树的中序遍历](https://github.com/Easay/JavascriptCoding/issues/30)
+- [力扣209.长度最小的子数组](https://github.com/Easay/JavascriptCoding/issues/1)
+- [力扣21(剑指25).合并两个有序链表](https://github.com/Easay/JavascriptCoding/issues/20)
+- [力扣121.买卖股票的最佳时机](https://github.com/Easay/JavascriptCoding/issues/5)
+- [力扣15.三数之和](https://github.com/Easay/JavascriptCoding/issues/40)
