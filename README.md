@@ -31,6 +31,6 @@
 - [力扣121.买卖股票的最佳时机](https://github.com/Easay/JavascriptCoding/issues/5)
 - [力扣15.三数之和](https://github.com/Easay/JavascriptCoding/issues/40)⛈
 - [力扣160.相交链表](https://github.com/Easay/JavascriptCoding/issues/21)
-- [力扣54(剑指29)](https://github.com/Easay/JavascriptCoding/issues/27)
+- [力扣54(剑指29).螺旋矩阵](https://github.com/Easay/JavascriptCoding/issues/27)
 - [力扣198.打家劫舍](https://github.com/Easay/JavascriptCoding/issues/33)
 - [力扣146.LRU缓存机制](https://github.com/Easay/JavascriptCoding/issues/55)
