@@ -43,4 +43,6 @@
 - [力扣718.最长重复子数组](https://github.com/Easay/JavascriptCoding/issues/6)
 - [力扣230.二叉搜索树中第k小的元素](https://github.com/Easay/JavascriptCoding/issues/29)
 - [力扣223(剑指27).翻转二叉树](https://github.com/Easay/JavascriptCoding/issues/31)
-- 
+- [力扣695.岛屿的最大面积](https://github.com/Easay/JavascriptCoding/issues/34)
+- [力扣93.复原IP地址](https://github.com/Easay/JavascriptCoding/issues/35)
+
