@@ -40,3 +40,7 @@
 - [力扣300.最长上升子序列](https://github.com/Easay/JavascriptCoding/issues/49)
 - [力扣200.岛屿数量](https://github.com/Easay/JavascriptCoding/issues/45)
 - [力扣56.合并区间](https://github.com/Easay/JavascriptCoding/issues/28)
+- [力扣718.最长重复子数组](https://github.com/Easay/JavascriptCoding/issues/6)
+- [力扣230.二叉搜索树中第k小的元素](https://github.com/Easay/JavascriptCoding/issues/29)
+- [力扣223(剑指27).翻转二叉树](https://github.com/Easay/JavascriptCoding/issues/31)
+- 
