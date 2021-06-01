@@ -45,4 +45,5 @@
 - [力扣223(剑指27).翻转二叉树](https://github.com/Easay/JavascriptCoding/issues/31)
 - [力扣695.岛屿的最大面积](https://github.com/Easay/JavascriptCoding/issues/34)
 - [力扣93.复原IP地址](https://github.com/Easay/JavascriptCoding/issues/35)
+- [力扣105.构造二叉树](https://github.com/Easay/JavascriptCoding/issues/79)
 
