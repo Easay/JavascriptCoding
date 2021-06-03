@@ -46,4 +46,8 @@
 - [力扣695.岛屿的最大面积](https://github.com/Easay/JavascriptCoding/issues/34)
 - [力扣93.复原IP地址](https://github.com/Easay/JavascriptCoding/issues/35)
 - [力扣105.构造二叉树](https://github.com/Easay/JavascriptCoding/issues/79)
+- [力扣19.删除倒数第N个节点](https://github.com/Easay/JavascriptCoding/issues/71)
+- [力扣5.最长回文子串](https://github.com/Easay/JavascriptCoding/issues/68)
+- [力扣151.翻转字符串里的单词](https://github.com/Easay/JavascriptCoding/issues/74)
+- [力扣199.二叉树的右视图](https://github.com/Easay/JavascriptCoding/issues/32)
 
