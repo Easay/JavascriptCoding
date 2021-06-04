@@ -50,4 +50,8 @@
 - [力扣5.最长回文子串](https://github.com/Easay/JavascriptCoding/issues/68)
 - [力扣151.翻转字符串里的单词](https://github.com/Easay/JavascriptCoding/issues/74)
 - [力扣199.二叉树的右视图](https://github.com/Easay/JavascriptCoding/issues/32)
+- [力扣62.不同路径](https://github.com/Easay/JavascriptCoding/issues/36)
+- [力扣322.零钱兑换](https://github.com/Easay/JavascriptCoding/issues/50)
+- [力扣509(剑指10-1).斐波那契数](https://github.com/Easay/JavascriptCoding/issues/25)
+- [力扣1013.将数组分成和相等的三个部分](https://github.com/Easay/JavascriptCoding/issues/77)
 
