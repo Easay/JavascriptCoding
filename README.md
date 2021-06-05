@@ -54,4 +54,8 @@
 - [力扣322.零钱兑换](https://github.com/Easay/JavascriptCoding/issues/50)
 - [力扣509(剑指10-1).斐波那契数](https://github.com/Easay/JavascriptCoding/issues/25)
 - [力扣1013.将数组分成和相等的三个部分](https://github.com/Easay/JavascriptCoding/issues/77)
+- [力扣31.下一个排列](https://github.com/Easay/JavascriptCoding/issues/80)
+- [力扣24.两两交换链表中的节点](https://github.com/Easay/JavascriptCoding/issues/78)
+- [力扣48.旋转图像](https://github.com/Easay/JavascriptCoding/issues/63)
+- [力扣236.二叉树的最近公共祖先](https://github.com/Easay/JavascriptCoding/issues/72)
 
