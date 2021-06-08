@@ -58,4 +58,7 @@
 - [力扣24.两两交换链表中的节点](https://github.com/Easay/JavascriptCoding/issues/78)
 - [力扣48.旋转图像](https://github.com/Easay/JavascriptCoding/issues/63)
 - [力扣236.二叉树的最近公共祖先](https://github.com/Easay/JavascriptCoding/issues/72)
+- [剑指09.两个栈实现队列](https://github.com/Easay/JavascriptCoding/issues/64)
+- [力扣498.对角线遍历](https://github.com/Easay/JavascriptCoding/issues/81)
+- [力扣64.最小路径和](https://github.com/Easay/JavascriptCoding/issues/59)
 
