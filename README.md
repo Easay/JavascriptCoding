@@ -61,4 +61,6 @@
 - [剑指09.两个栈实现队列](https://github.com/Easay/JavascriptCoding/issues/64)
 - [力扣498.对角线遍历](https://github.com/Easay/JavascriptCoding/issues/81)
 - [力扣64.最小路径和](https://github.com/Easay/JavascriptCoding/issues/59)
+- [力扣1047.删除字符串中所有相邻重复字符](https://github.com/Easay/JavascriptCoding/issues/73)
+- [力扣179.最大数](https://github.com/Easay/JavascriptCoding/issues/65)：数组的startsWith()方法
 
