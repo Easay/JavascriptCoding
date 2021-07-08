@@ -67,3 +67,4 @@
 - [力扣24.两两交换链表](https://github.com/Easay/JavascriptCoding/issues/78)：递归
 - [面试题.IP地址和整数的互换](https://github.com/Easay/JavascriptCoding/issues/75)
 - [力扣54.顺时针打印矩阵](https://github.com/Easay/JavascriptCoding/issues/27)
+- [力扣14.最长公共前缀](https://github.com/Easay/JavascriptCoding/issues/42)
