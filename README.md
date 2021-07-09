@@ -70,3 +70,4 @@
 - [力扣14.最长公共前缀](https://github.com/Easay/JavascriptCoding/issues/42)
 - [力扣110.平衡二叉树](https://github.com/Easay/JavascriptCoding/issues/44)
 - [力扣21.括号的生成](https://github.com/Easay/JavascriptCoding/issues/47)
+- [力扣169.多数元素](https://github.com/Easay/JavascriptCoding/issues/48)
