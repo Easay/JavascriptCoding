@@ -13,12 +13,12 @@
 - [力扣53.连续子数组的最大和](https://github.com/Easay/JavascriptCoding/issues/3)
 - [力扣112.路径之和（是否存在从根节点到叶节点路径上数字之和等于目标值的路径）](https://github.com/Easay/JavascriptCoding/issues/10)
 - [力扣70.爬楼梯](https://github.com/Easay/JavascriptCoding/issues/14)
-- [力扣215.数组中第K个最大元素](https://github.com/Easay/JavascriptCoding/issues/8)
+- [力扣215.数组中第K个最大元素](https://github.com/Easay/JavascriptCoding/issues/8)🍬
 - [力扣102.二叉树的层序遍历(BFS)](https://github.com/Easay/JavascriptCoding/issues/13)
 - [力扣46.全排列](https://github.com/Easay/JavascriptCoding/issues/19)⛈
 - [力扣129.路径总和（从根节点到叶节点数字之和）](https://github.com/Easay/JavascriptCoding/issues/17)
 - [力扣206.反转链表](https://github.com/Easay/JavascriptCoding/issues/26)⛈
-- [力扣912.手撕快速排序](https://github.com/Easay/JavascriptCoding/issues/37)
+- [力扣912.手撕快速排序](https://github.com/Easay/JavascriptCoding/issues/37)🍬
 - [力扣141.环形链表](https://github.com/Easay/JavascriptCoding/issues/16)
 - [力扣142.环形链表Ⅱ](https://github.com/Easay/JavascriptCoding/issues/83)
 - [力扣704.二分查找](https://github.com/Easay/JavascriptCoding/issues/18)
