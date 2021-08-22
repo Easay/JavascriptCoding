@@ -20,6 +20,7 @@
 - [力扣206.反转链表](https://github.com/Easay/JavascriptCoding/issues/26)⛈
 - [力扣912.手撕快速排序](https://github.com/Easay/JavascriptCoding/issues/37)
 - [力扣141.环形链表](https://github.com/Easay/JavascriptCoding/issues/16)
+- [力扣142.环形链表Ⅱ](https://github.com/Easay/JavascriptCoding/issues/83)
 - [力扣704.二分查找](https://github.com/Easay/JavascriptCoding/issues/18)
 - [力扣20.有效的括号](https://github.com/Easay/JavascriptCoding/issues/24)
 - [力扣104.二叉树的最大深度](https://github.com/Easay/JavascriptCoding/issues/15)
